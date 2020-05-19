@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+#logo {
+    display: block;
+    background-color: #2A2F4E;
+}
+
+
+#map {
+    border: 1px solid black;
+    max-width: 1180px;
+    clear: both;
+    display: block;
+}
+
+article, footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1180px;
+}
+
+
+#awards {
+    padding: 1em;
+}
+
+#awards img {
+    padding-right: .5em;
+}
+
+#tooltip {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  pointer-events: none;
+  border: 1px solid black;
+}
+#tooltip.hidden {
+  display: none;
+}
+#tooltip p {
+  margin: 0;
+  font-size: 11px;
+  
+}
+
+.axis line,
+.axis path {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+p {
+    max-width: 1180px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    border-width: 1px;
+    width: 70%;
+
+}
